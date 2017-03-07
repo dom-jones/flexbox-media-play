@@ -3,6 +3,7 @@ ul {
     display: flex; /*or inline flex*/
     flex-wrap: wrap;
     flex-flow: row nowrap;
+    justify-content: center;
 }
     /* where ul represents a flex container
     ul {
