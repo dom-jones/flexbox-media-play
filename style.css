@@ -1,12 +1,13 @@
 /*make parent element a flex container*/
 ul {
     display: flex; /*or inline flex*/
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;
     flex-flow: row nowrap;
-    justify-content: center;
+    justify-content: center;*/
     list-style-type: none;
-    align-items: baseline; /* doesn't work because elements are on main axis*/
-    align-content: flex-start;
+    align-items: center; /* doesn't work because elements are on main axis
+    align-content: flex-start;*/
+    flex-direction: column;
 }
 
     /* where ul represents a flex container
@@ -24,6 +25,7 @@ ul {
 
 
 li {
+    flex-basis: 100 px;
     width: 200px;
     height: 50px;
     background-color: #8cacea;
