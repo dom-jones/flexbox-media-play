@@ -1,6 +1,7 @@
 /*make parent element a flex container*/
 ul {
     display: flex; /*or inline flex*/
+    flex-wrap: wrap;
 }
     /* where ul represents a flex container
     ul {
