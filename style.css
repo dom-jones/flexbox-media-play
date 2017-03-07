@@ -4,7 +4,11 @@ ul {
     flex-wrap: wrap;
     flex-flow: row nowrap;
     justify-content: center;
+    list-style-type: none;
+    align-items: baseline; /* doesn't work because elements are on main axis*/
+    align-content: flex-start;
 }
+
     /* where ul represents a flex container
     ul {
         flex-direction: row || column || row-reverse || column-reverse; 
