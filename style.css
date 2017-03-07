@@ -74,6 +74,11 @@ html,
 body {
     display: flex;
     flex-direction: column; /*stack the flex-items (main and footer elements) vertically not horizontally.*/
+    background-color: #fff;
+    margin: 0;
+    font-family: lato, sans-serif;
+    color: #222;
+    font-size: 0.9em;
 }
 
 main {
@@ -82,5 +87,8 @@ main {
 
 footer {
     flex: 0 0 90px; /*don't grow or shrink - just stay at a height of 90px.*/
+    padding: 10px;
+    color: #fff;
+    background-color: rgba (61, 100, 158, .9);
 }
 
