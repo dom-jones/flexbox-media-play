@@ -27,8 +27,10 @@ li {
     width: 100px;
     height: 100px;
     background-color: #8cacea;
-    margin: 6px;
-    flex: 0  1 auto; /*flex-grow flex shrink flex basis*/
+    margin: 2em;
+    flex: 1; /*flex-grow flex shrink flex basis*/
+    border: 2px solid purple;
+
 }
 /*this is an absolute flex item
 li {
@@ -45,12 +47,11 @@ li:first-of-type {
 
 li:nth-child(1) {
     order: 3;
-    flex: 2 1 0;
 }
 
 li:nth-child(2) {
     order: 4;
-    flex: 1 1 0;
+    flex: 2 1 auto;
 }
 
 li:nth-child(3) {
