@@ -1,12 +1,12 @@
-/*make parent element a flex container*/
+/*make parent element a flex container
 ul {
     display: flex; /*or inline flex*/
     /*flex-wrap: wrap;
     flex-flow: row nowrap;
-    justify-content: center;*/
+    justify-content: center;
     list-style-type: none;
     align-items: center; /* doesn't work because elements are on main axis
-    align-content: flex-start;*/
+    align-content: flex-start;
     flex-direction: column;
 }
 
@@ -21,7 +21,7 @@ ul {
   }*/
 
  /* ul {
-    flex-flow: row wrap;  "row": flex-direction, wrap: flex-wrap, shorthand property*/
+    flex-flow: row wrap;  "row": flex-direction, wrap: flex-wrap, shorthand property
 
 
 li {
@@ -30,7 +30,7 @@ li {
     height: 50px;
     background-color: #8cacea;
     margin: 2em;
-    flex: 1; /*flex-grow flex shrink flex basis*/
+    flex: 1; /*flex-grow flex shrink flex basis
     border: 2px solid purple;
 
 }
@@ -41,7 +41,7 @@ li {
   this is a relative flex item
 li {
   flex-basis: 200px; /*only flex-basis is set
-} */
+} 
 
 li:first-of-type {
     align-self: stretch;
@@ -64,5 +64,23 @@ li:nth-child(3) {
 
 li:nth-child(4) {
     order: 2;
+} */
+
+html,
+  body {
+      height: 100%; /*setting this explicitly important*/
+  }
+
+body {
+    display: flex;
+    flex-direction: column; /*stack the flex-items (main and footer elements) vertically not horizontally.*/
+}
+
+main {
+    flex: 1 0 auto; /* fill the available space*/
+}
+
+footer {
+    flex: 0 0 90px; /*don't grow or shrink - just stay at a height of 90px.*/
 }
 
