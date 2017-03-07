@@ -2,6 +2,14 @@
 ul {
     display: flex; /*or inline flex*/
 }
+    /* where ul represents a flex container
+    ul {
+        flex-direction: row || column || row-reverse || column-reverse; 
+} */
+/*where ul represents a flex container
+ul {
+  flex-wrap: wrap || nowrap || wrap-reverse;
+  }*/
 
 li {
     width: 100px;
