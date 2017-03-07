@@ -24,8 +24,8 @@ ul {
 
 
 li {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 50px;
     background-color: #8cacea;
     margin: 2em;
     flex: 1; /*flex-grow flex shrink flex basis*/
@@ -47,11 +47,13 @@ li:first-of-type {
 
 li:nth-child(1) {
     order: 3;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 li:nth-child(2) {
     order: 4;
-    flex: 2 1 auto;
+   
 }
 
 li:nth-child(3) {
