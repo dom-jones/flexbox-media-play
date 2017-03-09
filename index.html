@@ -1,30 +1,71 @@
-<!--<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US">
 <head>
-     <title>Flex Box Model Tutorial</title>
+     <title> Catty Music </title>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <script src="https://use.fontawesome.com/a2e5ca4d83.js"></script>
 </head>
-<body>
-    <ul> <!--parent element-->
-       <!-- <li>Home</li> <!--first child element-->
-       <!-- <li>Contact</li> <!--second child element-->
-        <!--<li>Gallery</li> <!--third child element
-        <li>blog</li>
-     </ul>
-</body>
-</html >-->
-
-<!DOCTYPE html>
-<html>
-    <head>
-    <title> Catty Music </title>
-    </head>
     <body>
 
-        <main></main> <!--to contain the main section of the app -->
-        
-        <footer></footer> <!--to contain the music control buttons and song details -->
+        <main>
+           <aside class="sm hide"> <!--This represents the sidebar and contained in it are icon sets from font-awesome-->
+               
+               <i class="fa fa-bars"></i>
+               <i class="fa fa-home"></i>
+               <i class="fa fa-search"></i>
+               <i class="fa fa-volume-up"></i> 
+               <i class="fa fa-user"></i> 
+               <i class="fa fa-spotify"></i> 
+               <i class="fa fa-cog"></i> 
+               <i class="fa fa-soundcloud"></i> 
+           </aside>
 
+           <section class="content"> <!--this section will house everything other than the sidebar. -->
+                <div class="music-head">
+                    <img src="https://i.imgur.com/xDSTaej.jpg">
+                    <section class="catty music">
+                        <div>
+                            <i class="fa fa-play"> &nbsp;Play all </i>
+                            <i class="fa fa-plus"> &nbsp;Add to </i>
+                            <i class="fa fa-ellipsis-h"> &nbsp;&nbsp;More </i>
+                        </div>
+           </section>
+
+        </div>
+
+            <ul class="music-list">
+                <li>
+                    <p>1. One Dance </p>
+                    <p>Creake feat Cat Kid &amp; Cyla</p>
+                    <p>2:54</p>
+                    <p><span class="catty-cloud"> CATTY CLOUD SYNC</span></p>
+                </li>
+
+                <li>
+                    <p>2. Panda </p>
+                    <p>Cattee</p>
+                    <p>4:06</p>
+                    <p><span class="catty-cloud"> CATTY CLOUD SYNC</span></p>
+                </li>
+
+                <li>
+                    <p>3. Can't Dtop the Feeling!' </p>
+                    <p>Catin Cimberlake</p>
+                    <p>3:56</p>
+                    <p><span class="catty-cloud"> CATTY CLOUD SYNC</span></p>
+                </li>
+
+                <li>
+                    <p>4. Work From Home </p>
+                    <p>Cat Harmony feat Colla</p>
+                    <p>3:34</p>
+                    <p><span class="catty-cloud"> CATTY CLOUD SYNC</span></p>
+                </li>
+               </ul>
+                <main></main> <!--to contain the main section of the app -->
+                <footer></footer> <!--to contain the music control buttons and song details -->
+       </section>
     </body>
 </html>
