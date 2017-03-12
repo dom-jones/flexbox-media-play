@@ -15,10 +15,11 @@ body {
 
 main {
     flex: 1 0 auto; /* fill the available space*/
+    display: flex;
 }
 
 footer {
-    flex: 0 0 60px;
+    flex: 0 0 90px;
     padding: 10px;
     color: #fff;
     background-color: rgba(61, 100, 158, .9);
@@ -26,10 +27,10 @@ footer {
 
 
 
-main {
-    flex: 1 0 auto; /* fill the available space*/
-    display: flex;
-}
+/*main {
+    flex: 1 0 auto; /* fill the available space
+    display: flex
+} */
 
 aside {
     flex: 0 0 40px;
